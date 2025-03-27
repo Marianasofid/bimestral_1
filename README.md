@@ -45,3 +45,6 @@ Este es un juego simple desarrollado con Python y Pygame, en el que el jugador o
 - El juego finaliza si hay un choque o si el cohete se sale de la pantalla.
 
 # Diseño
+
+![Diagrama de flujo](diagrama.png "Diagrama de flujo")
+# Construcción
