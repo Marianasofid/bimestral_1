@@ -1,48 +1,47 @@
 # bimestral_1
-Este es un juego simple desarrollado con Python y Pygame, en el que el jugador o usuario controla un cohete que debe esquivar planetas mientras suma puntos.
+Bimestral No.1 (Periodo_1)
 
-## Cómo Jugar
+# Pygame number1
 
-- Para mover el cohete: Usa la flecha derecha.
+En este juego controlas el cohete de un agente espacial llamado: Ramko-Poochi y tu objetivo es escapar de latino america, pero no sera nada facil por que tendras que evitar colisionar con planetas que caen en el trancurso de tu viaje en el espacio.
 
-- Debes evitar chocar: Si chocas con un planeta o sales de la pantalla el juego se acaba.
+## Condiciones
 
-- Debes sumar puntos: Ganas un punto cada vez que un planeta desaparece sin chocar contigo.
+* Python 3.x
+* Pygame (`pip install pygame`)
 
-- Para salir: Presiona ESC para cerrar el juego.
+## Proceso :
 
-## Herramientas
+1.  Asegúrate de tener Python y Pygame instalados.
+2.  Guarda el código en un archivo llamado `juego.py`.
+3.  Crea una carpeta llamada `img` en el mismo directorio que `juego.py`.
+4.  Coloca las imágenes `COHETE.png` y `PLANETA.png` dentro de la carpeta `img`.
+5.  Abre una terminal o línea de comandos, navega al directorio donde guardaste el archivo `juego.py` y ejecuta:
 
-- Importamos pygame
+    ```bash
+    python juego.py
+    ```
 
-- Importamos random import randint
+## Controles
 
-- El juego usa imágenes almacenadas en la carpeta img:
+* **Flecha Derecha:** Mueve el cohete a la derecha.
+* **Flecha Izquierda:** Mueve el cohete a la izquierda.
+* **ESC:** Game Over (perdiste xd)
 
-- imgCOHETE.png = Cohete del jugador.
+## Estructura del Código
 
-- imgPLANETA.png = Planeta a esquivar.
+* **Inicialización:** Se inicializa Pygame, se definen las dimensiones de la ventana, los colores, y se cargan las imágenes.
+* **Variables del Juego:** Se definen variables para la posición y movimiento del cohete, la posición y velocidad de los planetas, la puntuación, y la fuente para mostrar la puntuación.
+* **Bucle Principal:** El bucle principal del juego se ejecuta hasta que el jugador presiona ESC o el cohete colisiona con un planeta o se sale de los margenes de la ventana.
 
+## Imágenes
 
-## Processing
+El juego utiliza las siguientes imágenes:
 
-- Se configura la ventana y se cargan las imágenes.
+* `img/COHETE.png`: Imagen del cohete.
+* `img/PLANETA.png`: Imagen de los planetas.
 
-- Se definen ls variables que son las posiciones y tamaños del cohete y los planetas.
-
-- Se ejecuta un bucle que:
-
-- Procesa eventos de teclado.
-
-- Mueve los planetas y el cohete.
-
-- Detecta choques.
-
-- Actualiza la pantalla.
-
-## Output 
-
-- El juego finaliza si hay un choque o si el cohete se sale de la pantalla.
+Asegúrate de que estas imágenes estén presentes en la carpeta `img` para que el juego funcione correctamente.
 
 # Diseño
 
